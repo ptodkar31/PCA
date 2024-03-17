@@ -57,26 +57,3 @@ final=pd.cocat([uni.Univ ,pca_data.iloc[:, 0:3]], axis=1)
 import matplotlib.pylab as plt
 ax =final.plot(x="comp0",y="comp1",kind="scatter",figsize=(12,8))
 final[['comp0','comp1','Univ']].apply(lambda x: ax.text(*x), axis=1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
