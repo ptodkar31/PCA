@@ -18,25 +18,6 @@ in K-means clustering and check if you’re getting similar results with and wit
  
 """
 
-#A data frame containing 178 observations of 13 variables.
-
-#Type:#The type of wine, into one of three classes, 1 (59 obs), 2(71 obs), and 3 (48 obs).
-#Alcohol:Alcohol
-#Malic:Malic acid
-#Ash:Ash
-#Alcalinity:Alcalinity of ash
-#Magnesium:Magnesium
-#Phenols:Total phenols
-#Flavanoids:Flavanoids
-#Nonflavanoids:Nonflavanoid phenols
-#Proanthocyanins:Proanthocyanins
-#Color:Color intensity.
-#Hue:Hue
-#Dilution:D280/OD315 of diluted wines.
-#Proline
-
-#Let us apply K-means algorithm
-
 import pandas as pd
 import numpy as np
 import matplotlib.pylab as plt
